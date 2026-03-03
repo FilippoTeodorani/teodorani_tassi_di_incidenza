@@ -33,26 +33,39 @@ The analytical framework is structured into three sequential components:
 
 ## Repository Structure
 
-data/
-raw/ # Original raw datasets
-interim/ # Cleaned and harmonized intermediate datasets
-processed/ # Final analytical datasets used in modeling
+### data/
+- raw/  
+  Original raw datasets  
 
-src/
-data_preparation/ # Python scripts transforming raw → interim
-dataset_creation/ # Python scripts transforming interim → processed
+- interim/  
+  Cleaned and harmonized intermediate datasets  
 
-notebook/
-# Jupyter notebooks for analytical steps:
-# Step 1 – RSV reconstruction
-# Step 2 – Vaccination scenario generation
-# Step 3 – Epidemiological & economic simulation
+- processed/  
+  Final analytical datasets used in modeling  
 
-outputs/
-step1/
-step2/
-step3/
-# Generated figures, tables, and model outputs
+
+### src/
+- data_preparation/  
+  Python scripts transforming raw → interim  
+
+- dataset_creation/  
+  Python scripts transforming interim → processed  
+
+
+### notebook/
+Jupyter notebooks for analytical steps:
+
+- Step 1 – RSV reconstruction  
+- Step 2 – Vaccination scenario generation  
+- Step 3 – Epidemiological & economic simulation  
+
+
+### outputs/
+- step1/  
+- step2/  
+- step3/  
+
+Generated figures, tables, and model outputs.
 
 ## Data Pipeline
 
