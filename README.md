@@ -72,20 +72,24 @@ Generated figures, tables, and model outputs.
 The full data flow follows a structured pipeline:
 
 Raw data
-↓
+    |
+    v
 Data preparation scripts (raw → interim)
-↓
+    |
+    v
 Dataset creation scripts (interim → processed)
-↓
+    |
+    v
 Analytical notebooks (modeling)
-↓
+    |
+    v
 Outputs (tables, figures, final results)
 
 ## Analytical Structure
 
 All processed datasets are harmonized to a unified panel structure:
 
-Influenza Season × Epidemiological Week × Geographic Unit × Age Class
+**Influenza Season × Epidemiological Week × Geographic Unit × Age Class**
 
 ## Modeling Components
 
@@ -131,16 +135,6 @@ To reproduce the analysis:
    - Step 1
    - Step 2
    - Step 3
-
-Python version: >= 3.9  
-
-Main libraries:
-- pandas
-- numpy
-- scikit-learn
-- statsmodels
-- matplotlib
-
 
 ## Author
 
