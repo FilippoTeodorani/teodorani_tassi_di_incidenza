@@ -64,26 +64,8 @@ Jupyter notebooks for analytical steps:
 - step1/  
 - step2/  
 - step3/  
-
 Generated figures, tables, and model outputs.
 
-## Data Pipeline
-
-The full data flow follows a structured pipeline:
-
-Raw data
-    |
-    v
-Data preparation scripts (raw → interim)
-    |
-    v
-Dataset creation scripts (interim → processed)
-    |
-    v
-Analytical notebooks (modeling)
-    |
-    v
-Outputs (tables, figures, final results)
 
 ## Analytical Structure
 
